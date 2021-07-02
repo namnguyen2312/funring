@@ -1,0 +1,62 @@
+.popup-input {
+  margin-left:25px
+}
+.ul-descrip > li{
+  display:inline-block;
+  margin-top: -15px;
+  padding-right: 11%;
+  padding-top: 5px;
+
+}
+.ul-descrip > li:last-child{
+  padding-right: 0;
+}
+.ul-tool-mini {
+  float: right;
+  position: relative;
+  top: 6px;
+}
+.ul-tool-mini li{
+  display:inline-block;
+  padding-left: 15px;
+}
+@media (max-width: 1260px) { 
+  .ul-descrip > li{
+  padding-right: 7%;
+  }
+}
+@media (max-width: 980px) {
+}
+@media (max-width: 768px) {
+  .ul-descrip > li{
+  padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .ul-tool-mini {
+    top: 10px;
+  }
+  .ul-descrip > li{
+  padding-right: 0;
+  }
+
+}
+  
+ 
+}
+@media (max-width: 320px) {
+  .table_form {
+    margin-left: 0px !important;
+  }
+  .popup-input {
+  margin-left:0;
+  }
+  .popupBody .funring_float input{
+  height:25px;
+  }
+  .popupBody table tbody tr td input{
+  width: 100px;
+  border: 1px solid #bfbfbf;
+  }
+}

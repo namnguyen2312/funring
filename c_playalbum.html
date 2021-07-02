@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Album</title>
+	<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="" name="title">
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+	<meta content="index, follow" name="ROBOTS">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="" rel="canonical">
+	<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+	<link href="images/favicon.png" type="image/png" rel="icon">
+	<link type="text/css" media="all" href="css/style.css" rel="stylesheet">
+
+	<link type="text/css" media="all" href="css/font-awesome.min.css" rel="stylesheet">	
+	<script src="js/jquery-1.11.3.min.js"></script>	
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="js/webticker/webticker.css"/>
+	<script type="text/javascript" src="js/webticker/jquery.webticker.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="js/scrollbar/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" type="text/css" href="js/scrollbar/custom.css"/>
+	<script type="text/javascript" src="js/scrollbar/jquery.mCustomScrollbar.js"></script>
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	<script type="text/javascript" src="js/navigation/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/navigation/navbar.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<header>
+	    <div class="container group">
+	    	<div class="menu-icon" id="menu-icon">
+	    		<a href="#"><img src="images/icon-png2x.png" height="24" width="36" alt=""></a>
+	    	</div>
+	        <div class="logo">
+	            <h1>Funring</h1>
+	            <a class="hide-text" title="Funring" href="#"><img alt="Funring" src="images/funringlogo.png"></a>
+	        </div>
+	        
+	        <div class="section-search" id="sug">
+	            <form class="search" method="get" action="#">
+	                <input type="text" autocomplete="off" class="input-txt" placeholder="Tên bài hát - Tên ca sỹ" name="q"><span class="input-btn"><button class="zicon btn hide-text" type="submit">Tìm kiếm</button></span>
+	            </form>
+	        </div>
+	        
+	        <div class="nav-account pull-right fn-guestbox">
+	        	<a class="hide-text" title="Funring" href="#"><img alt="Funring" src="images/mobifonelogo.png"></a>
+	        </div>	        
+	    </div>
+	</header>
+	<!--reponsive menu -->
+	<div id="fnNav" class="sidebar">
+		<div class="slogin">
+		    <a class="hide-text" title="Funring" href="#"><img alt="Funring" src="images/funringlogo.png"></a>
+		    <a href="/user/login" class="button btn-blue respon_button">Đăng nhập</a>
+		</div>
+		<div class="wrapper-menu">
+			<div class="block">
+		        <h2><span>Quản Lý Tài Khoản</span>
+		        	<a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		        </h2>
+		        <div class="block-body">
+		            <div class="block-content">
+		                <ul class="menu">
+			                <li>
+				                <a href="#" class="icon-tb ic-music"><span>My Funring</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-document"><span>Sao Chép</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-gift"><span>Tặng Nhạc Chờ</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-sound"><span>Funring Me</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-setting"><span>Thiết Lập</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-book"><span>Lịch Sử Giao Dịch</span></a>
+			                </li>
+			                <li>
+				                <a href="#" class="icon-tb ic-user"><span>Thông Tin Cá Nhân</span></a>
+			                </li>
+			            </ul>		                 
+		            </div>
+		        </div><!-- End .block-body -->
+			</div> 
+			<div class="block">
+		        <h2><span>Album</span>
+		        	<a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		        </h2>
+			</div> 
+		    <div class="block">
+		        <h2><span>Video</span>
+			        <a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		    	</h2>
+		        <div class="block-body">
+		            <div class="block-content">
+		                <ul class="menu">
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Việt Nam</a>
+				                <a class="show-cat" href="javascript:void(0)">
+				                	<span class="plus">&nbsp;</span>
+				                	<span class="minus">&nbsp;</span>
+				                </a>
+				                    <ul class="menu_lv2">
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trẻ</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trữ Tình</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Thiếu Nhi</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Cách Mạng</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Tâm Linh</a></li>
+				                    </ul>
+			                </li>
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Âu Mỹ</a>
+				                <a class="show-cat" href="javascript:void(0)">
+				                	<span class="plus">&nbsp;</span>
+				                	<span class="minus">&nbsp;</span>
+				                </a>
+				                    <ul class="menu_lv2">
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trẻ</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trữ Tình</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Thiếu Nhi</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Cách Mạng</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Tâm Linh</a></li>
+				                    </ul>
+			                </li>
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Châu Á</a>
+				                <a class="show-cat" href="javascript:void(0)">
+				                	<span class="plus">&nbsp;</span>
+				                	<span class="minus">&nbsp;</span>
+				                </a>
+				                    <ul class="menu_lv2">
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trẻ</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trữ Tình</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Thiếu Nhi</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Cách Mạng</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Tâm Linh</a></li>
+				                    </ul>
+			                </li>
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Hòa Tấu</a>
+				                <a class="show-cat" href="javascript:void(0)">
+				                	<span class="plus">&nbsp;</span>
+				                	<span class="minus">&nbsp;</span>
+				                </a>
+				                    <ul class="menu_lv2">
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trẻ</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trữ Tình</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Thiếu Nhi</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Cách Mạng</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Tâm Linh</a></li>
+				                    </ul>
+			                </li>
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Sáng Tạo</a>
+				                <a class="show-cat" href="javascript:void(0)">
+				                	<span class="plus">&nbsp;</span>
+				                	<span class="minus">&nbsp;</span>
+				                </a>
+				                    <ul class="menu_lv2">
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trẻ</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Trữ Tình</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Thiếu Nhi</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Cách Mạng</a></li>
+				                        <li><a href="#"><span class="bullet-icon">&nbsp;</span>Nhạc Tâm Linh</a></li>
+				                    </ul>
+			                </li>
+			            </ul>		                 
+		            </div>
+		        </div><!-- End .block-body -->
+		    </div>
+		    <div class="block">
+		        <h2><span>Nghệ Sỹ</span>
+			        <a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		    	</h2>
+			</div><!-- End .block-body -->
+			<div class="block">
+		        <h2><span>Bảng Xếp Hạng</span>
+			        <a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		    	</h2>
+			</div><!-- End .block-body -->
+			<div class="block">
+		        <h2><span>Hỗ Trợ</span>
+			        <a class="show-cat" href="javascript:void(0)">
+		            	<span class="plus">&nbsp;</span>
+		            	<span class="minus">&nbsp;</span>
+		        	</a>
+		    	</h2>
+		    	<div class="block-body">
+		            <div class="block-content">
+		                <ul class="menu">
+			                <li>
+				                <a href="#"><span class="bullet-icon">&nbsp;</span>Thông Tin - Hướng Dẫn</a>
+			                </li>
+			                <li>
+			                	<a href="#"><span class="bullet-icon">&nbsp;</span>Góp Ý - Báo Lỗi</a>
+			                </li>
+			            </ul>		                 
+		            </div>
+				</div>
+			</div><!-- End .block-body -->
+		</div><!--- End Responsive Menu-->
+	</div><!-- End Wrap Responsive Menu -->
+	<nav id="main-menu">
+	    <div class="container">
+	        <ul class="main-nav group">
+	            <li class="home"><a href="#" title="">Funring</a></li>
+	            <li class="separation"></li>            
+	            <li class="active"><a title="Nhạc cá nhân" href="#">BÀI HÁT</a>
+	            	<div class="megamenu submenu menu-col-4 menu-songs">
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Việt Nam" href="#">Việt Nam</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Nhạc Trẻ">Nhạc Trẻ</a></li>
+	                                <li><a href="#">Nhạc Trữ Tình</a></li>
+	                                <li><a href="#">Nhạc Thiếu Nhi</a></li>
+	                                <li><a href="#">Nhạc Cách Mạng</a></li>
+	                                <li><a href="#">Nhạc Tâm Linh</a></li>
+	                                <li><a href="#">Nhạc Tâm Linh 1</a></li>	 
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Âu Mỹ" href="#">Âu Mỹ</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Pop">Pop</a></li>
+	                                <li><a href="#" title="Rock">Rock</a></li>
+	                                <li><a href="#">Rap / Hip Hop</a></li>
+	                                <li><a href="#" title="Country">Country</a></li>
+	                                <li><a href="#" title="Electronic / Dance">Electronic / Dance</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Châu Á" href="#">Châu Á</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Hàn Quốc">Hàn Quốc</a></li>
+	                                <li><a href="#" title="Nhật bản">Nhật Bản</a></li>
+	                                <li><a href="#">Hoa Ngữ</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Hòa Tấu">Hòa Tấu</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Sáng Tạo">Sáng Tạo</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </li>
+	            <li class="separation"></li>
+	            <li><a href="#" title="Album">Album</a>
+	                <div class="megamenu submenu menu-col-4 menu-album">
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Việt Nam" href="#">Việt Nam</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Nhạc Trẻ">Nhạc Trẻ</a></li>
+	                                <li><a href="#">Nhạc Trữ Tình</a></li>
+	                                <li><a href="#">Nhạc Thiếu Nhi</a></li>
+	                                <li><a href="#">Nhạc Cách Mạng</a></li>
+	                                <li><a href="#">Nhạc Tâm Linh</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Âu Mỹ" href="#">Âu Mỹ</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Pop">Pop</a></li>
+	                                <li><a href="#" title="Rock">Rock</a></li>
+	                                <li><a href="#">Rap / Hip Hop</a></li>
+	                                <li><a href="#" title="Country">Country</a></li>
+	                                <li><a href="#" title="Electronic / Dance">Electronic / Dance</a></li>                                
+	                            </ul>
+	                        </div>
+	                        
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Châu Á" href="#">Châu Á</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Hàn Quốc">Hàn Quốc</a></li>
+	                                <li><a href="#" title="Nhật bản">Nhật Bản</a></li>
+	                                <li><a href="#">Hoa Ngữ</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                            </ul>
+	                        </div>
+	                        
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Hòa Tấu">Hòa Tấu</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div> 
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Sáng Tạo">Sáng Tạo</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </li>
+	            <li class="separation"></li>
+	            <li><a href="#" title="Video">Video</a>
+	                <div class="megamenu submenu menu-col-4 menu-video">
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Việt Nam" href="#">Việt Nam</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Nhạc Trẻ">Nhạc Trẻ</a></li>
+	                                <li><a href="#">Nhạc Trữ Tình</a></li>
+	                                <li><a href="#">Nhạc Thiếu Nhi</a></li>
+	                                <li><a href="#">Nhạc Cách Mạng</a></li>
+	                                <li><a href="#">Nhạc Tâm Linh</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Âu Mỹ" href="#">Âu Mỹ</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Pop">Pop</a></li>
+	                                <li><a href="#" title="Rock">Rock</a></li>
+	                                <li><a href="#">Rap / Hip Hop</a></li>
+	                                <li><a href="#" title="Country">Country</a></li>
+	                                <li><a href="#" title="Electronic / Dance">Electronic / Dance</a></li>                              
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Châu Á" href="#">Châu Á</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Hàn Quốc">Hàn Quốc</a></li>
+	                                <li><a href="#" title="Nhật bản">Nhật Bản</a></li>
+	                                <li><a href="#">Hoa Ngữ</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Hòa Tấu">Hòa Tấu</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>                    
+	                </div>
+	            </li>
+	            <li class="separation"></li>
+	            <li><a href="#" title="Video">Kênh Âm Nhạc</a>
+	                <div class="megamenu submenu menu-col-4 menu-kenhamnhac">
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Việt Nam" href="#">Việt Nam</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Nhạc Trẻ">Nhạc Trẻ</a></li>
+	                                <li><a href="#">Nhạc Trữ Tình</a></li>
+	                                <li><a href="#">Nhạc Thiếu Nhi</a></li>
+	                                <li><a href="#">Nhạc Cách Mạng</a></li>
+	                                <li><a href="#">Nhạc Tâm Linh</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Âu Mỹ" href="#">Âu Mỹ</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Pop">Pop</a></li>
+	                                <li><a href="#" title="Rock">Rock</a></li>
+	                                <li><a href="#">Rap / Hip Hop</a></li>
+	                                <li><a href="#" title="Country">Country</a></li>
+	                                <li><a href="#" title="Electronic / Dance">Electronic / Dance</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a title="Châu Á" href="#">Châu Á</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Hàn Quốc">Hàn Quốc</a></li>
+	                                <li><a href="#" title="Nhật bản">Nhật Bản</a></li>
+	                                <li><a href="#">Hoa Ngữ</a></li>
+	                                <li><a href="#">Thái Lan</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                    <div class="subcol menu-col-1">
+	                        <div class="title-menu"><a href="#" title="Hòa Tấu">Hòa Tấu</a></div>
+	                        <div class="subinner_item">
+	                            <ul>
+	                                <li><a href="#" title="Classical">Classical</a></li>
+	                                <li><a href="#" title="Piano">Piano</a></li>
+	                                <li><a href="#" title="Guitar">Guitar</a></li>
+	                                <li><a href="#" title="Violin">Violin</a></li>
+	                                <li><a href="#" title="Cello">Cello</a></li>	                                
+	                            </ul>
+	                        </div>
+	                    </div>	                    
+	                </div>
+	            </li>
+	            <li class="separation"></li>
+	            <li><a href="#" title="">HƯỚNG DẪN</a></li>
+	            <li class="separation"></li>
+	            <li><a href="#" title="">TIN TỨC</a></li> 	            
+	        </ul>
+	        <div class="fn-login-wrap">
+	        	<a class="fn-login" href="#" title="Đăng nhập">Đăng nhập</a>
+		        <span class="slash">|</span>
+		        <a class="fn-signin" href="" title="Đăng ký">Đăng ký</a>
+	        </div>	        
+	    </div>
+	</nav>
+	<div class="wrap-body container group">
+	    <div class="hot-news-bar">
+	    	<div class="container">
+		    	<div class="col-3">
+		    		<p class="hot-news-p">Danh sách bài hát cài nhiều nhất: </p>
+		    	</div>
+		    	<div class="col-9">
+		    		<ul id="hot-news-ul">
+			        	<li><a href="#">Say You Do - Tiên Tiên</a></li>
+			        	<li><a href="#">Anh ở đâu - Khởi My</a></li>
+			        	<li><a href="#">Khuôn mặt đáng thương - Sơn Tùng MTP</a></li>
+			        	<li><a href="#">Cô bé ngày xưa - Hoài Lâm</a></li>
+			        	<li><a href="#">Bí mật không tên - Bùi Anh Tuấn</a></li>
+			        	<li><a href="#">Giấu kín trái tim - Chí Thiện</a></li>
+			        </ul>			       
+		    	</div>
+	    	</div>
+	    </div>
+	    <div class="wrap-content group page-play-album">
+	        <div class="info-top-play group">
+			    <a title="Minh Hằng" href="#">
+			    	<img width="80" alt="Minh Hằng" src="images/singer/minhhang.jpg" class="pthumb">
+			    </a>
+			    <div class="info-content">
+			        <h1 class="txt-primary">Cô Đơn Giữa Cuộc Tình</h1>
+			        <span class="zadash">-</span>
+			        <div class="inline">
+			            <h2 class="txt-primary txt-hidden">
+			            	<a href="#" title="Minh Hằng">Hồ Ngọc Hà</a>
+			            </h2>
+			        </div>
+			        <div class="info-song-top">
+			        	<span>Sáng tác: </span>
+			            <div class="inline">
+			                <h2><a class="txt-info" title="Hoài An" href="#">Hoài An</a></h2>
+			            </div>
+			            <span class="bull">•</span> <span>Album: </span>
+			            <div class="inline">
+			                <h2><a class="txt-info" title="Mừng Tuổi Mẹ Cha" href="#">Cô Đơn Giữa Cuộc Tình</a></h2>
+			            </div>
+			        </div>
+			        <div class="info-author-top">
+			        	<span>Ca Sĩ: </span>
+			            <div class="inline">
+			                <h2 class="txt-primary"><a href="#" title="Minh Hằng">Hồ Ngọc Hà</a></h2>
+			            </div>
+			        </div>
+			        <div class="info-song-top"><span>Thể loại: </span>
+			            <div class="inline">
+			                <h2><a title="Thể loại Việt Nam" href="#">Việt Nam</a></h2><span>, </span>
+			                <h2><a title="Thể loại Nhạc Trẻ" href="#">Nhạc Trẻ</a></h2>
+			            </div>
+			        </div>
+			        <ul class="icon-top-play icon-hidden">
+                    	<li><a href="#" class="song-icon song-headphone pull-right"><span>22,339,547</span></a></li>
+                    	<li><a href="#" class="song-icon song-like pull-right"><span>1500</span></a></li>
+		            </ul>
+		            <div class="icon-top-play icon-hidden">
+			    		<!--FB LIKE-->
+						<div class="fb-like fb-show" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+						<!-- G+-->
+						<g:plusone size="medium" width="250px"></g:plusone>						
+		    		</div>
+			    </div>
+			</div>
+			<!-- END INFO -->
+
+			<div class="player" style="width: auto;">
+				<div id="_player">
+					<iframe width="100%" height="80" src="http://mp3.zing.vn/embed/song/ZW6FDBB6?start=true" frameborder="0" allowfullscreen="true"></iframe>
+				</div>
+				<div class="main-toolbox">
+		            <ul class="ul-toolbox">
+		            	<td><a href="#" style="display:none"><img src="images/icon/download.png" height="21" width="18" alt=""></a></td>
+		            	<td><a class="popup-songdownload" rel="leanModal" href="#song-download"><img src="images/icon/phone.png" height="21" width="18" alt=""></a></td>
+			            <td><a class="popup-songgift" rel="leanModal" href="#song-gift"><img src="images/icon/gift.png" height="21" width="18" alt=""></a></td>
+			            <td><a href="#"><img src="images/icon/like.png" height="21" width="20" alt=""></a></td>
+			            <td class="social-like">
+				            <div style="float:right;" class="social-hidden-1">
+					    		<!--FB LIKE-->
+								<div class="fb-like fb-show" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- G+-->
+								<g:plusone size="medium" width="250px"></g:plusone>						
+				    		</div>
+			    		</td>
+		            </ul>
+				</div>
+			    <div class="box-scroll  fn-scrollbar" id="playlistItems" style="overflow:hidden;">
+			    	<ul class="playlist">
+					    <li class="fn-playlist-item fn-song fn-current playing" id="songZW6CFUOF">
+					        <div class="item-song col-12-ms"> 
+					        	<span>01</span>
+					            <h3>
+					            	<a title="" href="#" class="fn-name">Cô Đơn Giữa Cuộc Tình (New Version)</a>					            	
+					            </h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>
+					    <li class="fn-playlist-item fn-song fn-current" id="songZW6CFUOF">
+					        <div class="item-song"> <span>02</span>
+					            <h3><a title="" href="#" class="fn-name">Em Của Ngày Hôm Qua (Team Sơn Tùng M-TP -... -Sơn Tùng M-TP</a></h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>
+					    <li class="fn-playlist-item fn-song fn-current" id="songZW6CFUOF">
+					        <div class="item-song"> <span>03</span>
+					            <h3><a title="" href="#" class="fn-name">Một Cộng Một Lớn Hơn Hai -Sơn Tùng M-TP</a></h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>
+					    <li class="fn-playlist-item fn-song fn-current" id="songZW6CFUOF">
+					        <div class="item-song"> <span>04</span>
+					            <h3><a title="" href="#" class="fn-name">Cô Đơn Giữa Cuộc Tình (New Version)</a></h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>
+					    <li class="fn-playlist-item fn-song fn-current" id="songZW6CFUOF">
+					        <div class="item-song"> <span>05</span>
+					            <h3><a title="" href="#" class="fn-name">Cô Đơn Giữa Cuộc Tình (New Version)</a></h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>
+					    <li class="fn-playlist-item fn-song fn-current" id="songZW6CFUOF">
+					        <div class="item-song"> <span>06</span>
+					            <h3><a title="" href="#" class="fn-name">Cô Đơn Giữa Cuộc Tình (New Version)</a></h3>
+					            <h5 class="m-artist" title=""><a href="#">Hồ Ngọc Hà</a></h5>
+					            <div class="inline ellipsis">
+					                <h4><a title="Nghệ sĩ Hồ Ngọc Hà" href="http://mp3.zing.vn/nghe-si/Ho-Ngoc-Ha">Hồ Ngọc Hà</a></h4>
+					            </div>
+					        </div>
+					        <div class="tool-song">
+					            <ul class="ul-toolbox">
+					            	<!-- <td><a href="#" class="tool-song-icon song-download pull-left">&nbsp;</a></td> -->
+					            	<td><a rel="leanModal" href="#song-download" class="popup-songdownload tool-song-icon song-phone-small pull-left">&nbsp;</a></td>
+						            <td><a rel="leanModal" href="#song-gift" class="popup-songgift tool-song-icon song-gift-small pull-left">&nbsp;</a></td>
+						            <td><a href="#" class="tool-song-icon song-like-small pull-left">&nbsp;</a></td>
+					            </ul>
+					        </div>
+					    </li>					    
+					</ul>
+			    </div>
+			    <script type="text/javascript">
+				    $(document).ready(function(){
+				    	$("#playlistItems").mCustomScrollbar();
+				    })
+			    </script>
+			    <!-- END PLAYlist -->
+			</div>
+			<!-- END PLAYER -->
+
+			<div class="section section mt20">
+			    <div class="media-func group fn-tabgroup">
+			    	<a style="display:none" class="button-style pull-left fn-tab" href="#" id="tabRbt">
+			    		<i class="i-noimg"></i><span>Nhạc chờ</span>
+			    	</a>
+			    	<a style="display:none" class="button-style pull-left fn-tab" href="#" id="tabShare">
+			    		<i class="i-noimg"></i><span>Quà tặng âm nhạc</span>
+			    	</a>
+			   
+			    	<div style="float:right;" class="social-hidden-1">
+			    		<div style="display:inline-block; position:relative; border:1px solid #d3d2d2; padding-bottom:5px; padding-right:5px; margin-right:5px;"><b class="icon-headphone-1 position_icon" >&nbsp;</b><span class="fn-total-play">70,067</span></div>
+			    		<!--FB LIKE-->
+						<!--<div class="fb-like" data-send="false" data-layout="button_count" data-width="150" data-show-faces="true"></div>-->
+						<div class="fb-like social-hidden" data-href="'.$thepage[link1].'" data-send="false" data-layout="button_count" data-width="250" data-show-faces="true" ></div>
+						<!-- G+-->
+						<div class="google-plus social-hidden"><g:plusone size="medium" width="250px" ></g:plusone></div>					
+			    	</div>
+			        
+			    <!-- FACEBOOK LIKE-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- G+-->
+<script type="text/javascript">
+window.___gcfg = {
+	lang: 'en-US'
+  };
+
+  (function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/plusone.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>	
+			    </div>
+			    <div class="tab-pane fn-tab-panel">
+					<div class="row">
+	            	<div class="col-12">
+		            		<div class="list-item list-item-1">
+			                    <ul>
+			                        <li class="fn-song" id="">
+			                            <h3 class="txt-primary">
+			                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink"><span class="span-arrow">&nbsp;</span>Cô Đơn Giữa Cuộc Tình
+			                            	</a>
+			                            </h3>
+			                            <ul class="ul-tool-zlist">
+			                            	<li class="song-icon pull-left">Lượt tải: 21</li>
+			                            	<li class="song-icon pull-left">Giá: 2.000đ</li>
+			                            	<li class="song-icon pull-left">Mã: 60117026</li>
+			                            	<li><a rel="leanModal" href="#song-download" class="popup-songdownload icon-hiden-zlist-one song-icon song-phone pull-right">&nbsp;</a></li>
+			                            	<li class="icon-hidden-zlist"><a rel="leanModal" href="#song-download"  class="popup-songdownload song-icon song-phone pull-right">&nbsp;</a><a class="popup-songgift song-icon song-gift pull-right" rel="leanModal" href="#song-gift">&nbsp;</a><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+			                            </ul>
+			                        </li>
+			                        <!-- END SONG -->
+			                        <li class="fn-song" id="">
+			                            <h3 class="txt-primary">
+			                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink"><span class="span-arrow">&nbsp;</span>Em Của Ngày Hôm Qua
+			                            	</a>
+			                            </h3>
+			                            <ul class="ul-tool-zlist">
+			                            	<li class="song-icon pull-left">Lượt tải: 21</li>
+			                            	<li class="song-icon pull-left">Giá: 2.000đ</li>
+			                            	<li class="song-icon pull-left">Mã: 60117026</li>
+			                            	<li><a rel="leanModal" href="#song-download" class="popup-songdownload icon-hiden-zlist-one song-icon song-phone pull-right">&nbsp;</a></li>
+			                            	<li class="icon-hidden-zlist"><a rel="leanModal" href="#song-download"  class="popup-songdownload song-icon song-phone pull-right">&nbsp;</a><a class="popup-songgift song-icon song-gift pull-right" rel="leanModal" href="#song-gift">&nbsp;</a><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+			                            </ul>
+			                        </li>
+			                    </ul>
+			                </div>
+			                <!-- END .list-item -->
+		            	</div>
+		            </div>
+			    	<p>Để tải bài hát làm nhạc chờ, nhấn <a href="#"><img width="10" src="images/icon/phone.png" /></a> hoặc soạn tin <b style="color:#f16c6c">BH</b> <b style="color:#1d89cf">MãSốBàiHát</b> gửi <b style="color:#f16c6c">1221</b></p><br>
+			    	<p>Để tặng bài hát làm nhạc chờ cho thuê bao khác, nhấn <a href="#"><img width="10" src="images/icon/gift.png" /></a> rồi nhập số thuê bao.<br> Hoặc soạn tin <b style="color:#f16c6c">TANG</b> <b style="color:#1d89cf">MãSốBàiHát SĐT tặng</b> gửi <b style="color:#f16c6c">1221</b></p><br>
+			    	<p>Funring là dịch vụ cho phép khách hàng cài đặt các bản nhạc, ca khúc hoặc những âm thanh độc đáo để người gọi đến được thưởng thức trong khi chờ người nghe nhấc máy.</p><br>
+			    	<p>
+			    		<a href="#" style="color:#1d89cf; font-style:italic;">Xem hướng dẫn cài nhạc chờ</a><br>
+			    		<a href="#" style="color:#1d89cf; font-style:italic;">Xem hướng dẫn copy nhạc chờ</a>
+			    	</p>
+			    </div>
+			   <!-- <script type="text/javascript">
+			    	$(document).ready(function() {
+			    		var str = $('.fn-tab-panel table tbody tr td:first-child').text();
+			    		$('.fn-tab-panel table tbody tr td:first-child').html(str.substring(0,5));
+			    	});
+			    </script>-->
+
+			    <div class="tab-pane fn-tab-panel-lyrics">
+				    <div id="lyrics" class="lyrics-container po-r">
+				        <div class="fn-container">
+				            <div class="fn-lyrics fn-lyricszw6fdbb6" id="lyricszw6fdbb61">
+				                <div class="fn-wlyrics title">
+				                	Lời bài hát
+				               	</div>
+				                <p class="fn-wlyrics fn-content small">Xuân đến cùng bao nô nức
+				                    <br>Đón năm mới tuyệt vời
+				                    <br>Xuân hát
+				                    <br>cỏ hoa thơm ngát những giai điệu tình yêu
+				                    <br>Dù nhiều quà Tết thiệp mừng đẹp xinh
+				                    <br>Chỉ mong thời khắc gia đình
+				                    <br>Từng mùa xuân dòng thời gian đếm những ngày sum vầy
+				                    <br>
+				                    <br>Bao điều riêng tư cuộc sống mỗi người đôi lần vội vã
+				                    <br>Bỏ quên tình yêu thiêng liêng thiết tha bao la
+				                    <br>Gia đình yêu thương sẽ có bao lần
+				                    <br>Được gần bên nhau
+				                    <br>Mỗi mùa xuân sang mừng tuổi mẹ cha
+				                    <br>
+				                    <br>Xuân xuân về bao nhớ thương
+				                    <br>Mai đào khoe sắc hương trong vòng tay gia đình
+				                    <br>Chào mùa xuân sang bao lời nói tiếng cười
+				                    <br>Quây quần bên bếp hồng ngập tràn hạnh phúc
+				                    <br>Mãi mãi ấm áp bên mẹ cha
+				                    <br>Nhớ những ngày xưa trẻ con
+				                    <br>Cùng cười đùa khoe bao lì xì rộn ràng trong áo mới
+				                    <br>
+				                    <br>Xuân xuân về muôn tiếng ca giai điệu sao thiết tha
+				                    <br>Bên tình yêu gia đình
+				                    <br>Chào mùa xuân sang trong niềm vui đất trời
+				                    <br>Trong tình thân mỗi người nụ cười rạng rỡ
+				                    <br>Nếu có mơ ước thần tiên
+				                    <br>Mãi mãi được bên mẹ cha mừng xuân
+				                    <br>Vì quà nào bằng gia đình sum họp
+				                    <br>Tết nào vui bằng Tết đoàn viên
+				                    <br>Vì quà nào bằng gia đình sum họp
+				                    <br>Tết nào vui bằng Tết đoàn viên
+				                </p>
+				            </div>
+				        </div>
+				        <div class="lyrics-func group fn-wlyrics">
+				        	<a class="ml0 pull-left fn-expand" href="#">Xem toàn bộ</a>
+				        </div>
+				    </div>
+				</div>
+				
+			</div>
+
+	        <div class="section">
+	            <h2 class="title-section">
+	            	<a href="#" title="Album Hot">ALBUM MINH HẰNG </a>
+	            	<a href="#" title="Xem thêm" class="a-detail">Xem thêm <span class="a-arrow a-arrow-blue">&nbsp;</span></a>
+	            </h2>
+	            <div class="row">
+	                <div class="album-item des-inside col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" href="#">
+	                    	<img class="video-img img-responsive" alt="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" src="images/album/album1.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                        <div class="des">
+	                            <h3 class="title-item txt-primary ellipsis">Em Đi Tìm Anh (Single)</h3>
+	                            <div class="inblock ellipsis">
+	                                <h4 class="title-sd-item txt-info ellipsis">Hồ Ngọc Hà</h4><span class="ft">, </span>
+	                                <h4 class="title-sd-item txt-info ellipsis">Noo Phước Thịnh</h4>
+	                            </div>
+	                        </div>
+	                        <span class="item-mask"></span>
+	                    </a>
+	                </div>
+	                <div class="album-item des-inside col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" href="#">
+	                    	<img class="video-img img-responsive" alt="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" src="images/album/album2.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                        <div class="des">
+	                            <h3 class="title-item txt-primary ellipsis">Em Đi Tìm Anh (Single)</h3>
+	                            <div class="inblock ellipsis">
+	                                <h4 class="title-sd-item txt-info ellipsis">Hồ Ngọc Hà</h4><span class="ft">, </span>
+	                                <h4 class="title-sd-item txt-info ellipsis">Noo Phước Thịnh</h4>
+	                            </div>
+	                        </div>
+	                        <span class="item-mask"></span>
+	                    </a>
+	                </div>
+	                <div class="album-item des-inside col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" href="#">
+	                    	<img class="video-img img-responsive" alt="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" src="images/album/album3.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                        <div class="des">
+	                            <h3 class="title-item txt-primary ellipsis">Em Đi Tìm Anh (Single)</h3>
+	                            <div class="inblock ellipsis">
+	                                <h4 class="title-sd-item txt-info ellipsis">Hồ Ngọc Hà</h4><span class="ft">, </span>
+	                                <h4 class="title-sd-item txt-info ellipsis">Noo Phước Thịnh</h4>
+	                            </div>
+	                        </div>
+	                        <span class="item-mask"></span>
+	                    </a>
+	                </div>
+	                <div class="album-item des-inside col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" href="#">
+	                    	<img class="video-img img-responsive" alt="Album Em Đi Tìm Anh (Single) - Hồ Ngọc Hà ft. Noo Phước Thịnh" src="images/album/album4.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                        <div class="des">
+	                            <h3 class="title-item txt-primary ellipsis">Em Đi Tìm Anh (Single)</h3>
+	                            <div class="inblock ellipsis">
+	                                <h4 class="title-sd-item txt-info ellipsis">Hồ Ngọc Hà</h4><span class="ft">, </span>
+	                                <h4 class="title-sd-item txt-info ellipsis">Noo Phước Thịnh</h4>
+	                            </div>
+	                        </div>
+	                        <span class="item-mask"></span>
+	                    </a>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- END .section -->
+
+	        <div class="section">
+	            <h2 class="title-section">
+	            	<a href="#" title="Video Hot">VIDEO MINH HẰNG</a>
+	            	<a href="#" title="Xem thêm" class="a-detail">Xem thêm <span class="a-arrow a-arrow-blue">&nbsp;</span></a>
+	            </h2>
+	            <div class="row">
+	                <div class="album-item col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Video " href="#">
+	                    	<img class="video-img img-responsive" alt="Video " src="images/video/video1.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                    </a>
+	                    <h3 class="title-item small-title-item ellipsis">
+	                    	<a class="txt-primary" title="Video " href="#">Đừng Bắt Anh Mạnh Mẽ (Version 2)</a>
+	                    </h3>
+	                    <div class="inblock ellipsis">
+	                        <h4 class="title-sd-item txt-info">
+	                        	<a title="Nghệ sĩ Hồ Quang Hiếu" href="#">Hồ Quang Hiếu</a>
+	                        </h4>
+	                    </div>
+	                </div>
+	                <div class="album-item col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Video " href="#">
+	                    	<img class="video-img img-responsive" alt="Video " src="images/video/video2.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                    </a>
+	                    <h3 class="title-item small-title-item ellipsis">
+	                    	<a class="txt-primary" title="Video " href="#">Đừng Bắt Anh Mạnh Mẽ (Version 2)</a>
+	                    </h3>
+	                    <div class="inblock ellipsis">
+	                        <h4 class="title-sd-item txt-info">
+	                        	<a title="Nghệ sĩ Hồ Quang Hiếu" href="#">Hồ Quang Hiếu</a>
+	                        </h4>
+	                    </div>
+	                </div>
+	                <div class="album-item col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Video " href="#">
+	                    	<img class="video-img img-responsive" alt="Video " src="images/video/video3.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                    </a>
+	                    <h3 class="title-item small-title-item ellipsis">
+	                    	<a class="txt-primary" title="Video " href="#">Đừng Bắt Anh Mạnh Mẽ (Version 2)</a>
+	                    </h3>
+	                    <div class="inblock ellipsis">
+	                        <h4 class="title-sd-item txt-info">
+	                        	<a title="Nghệ sĩ Hồ Quang Hiếu" href="#">Hồ Quang Hiếu</a>
+	                        </h4>
+	                    </div>
+	                </div>
+	                <div class="album-item col-3 col-6-sm">
+	                    <a class="thumb _trackLink" title="Video " href="#">
+	                    	<img class="video-img img-responsive" alt="Video " src="images/video/video4.jpg" />
+	                    	<span class="icon-circle-play"></span>
+	                    </a>
+	                    <h3 class="title-item small-title-item ellipsis">
+	                    	<a class="txt-primary" title="Video " href="#">Đừng Bắt Anh Mạnh Mẽ (Version 2)</a>
+	                    </h3>
+	                    <div class="inblock ellipsis">
+	                        <h4 class="title-sd-item txt-info">
+	                        	<a title="Nghệ sĩ Hồ Quang Hiếu" href="#">Hồ Quang Hiếu</a>
+	                        </h4>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- END .section -->	        
+
+	        <div class="section">
+	        	<h2 class="title-section">
+                	<a href="#" title="Ca Khúc Hot">Bài Hát Minh Hằng</a>
+                	<a href="#" title="Xem thêm" class="a-detail">Xem thêm <span class="a-arrow a-arrow-blue">&nbsp;</span></a>
+                </h2>
+	            <div class="row">
+	            	<div class="col-12">
+	            		<div class="list-item">
+		                    <ul style="margin-top:10px;">
+		                        <li class="fn-song" id="">
+		                            <h3 class="txt-primary">
+		                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink">Say You Do <span class="hidden-singer">- Tiên Tiên</span>
+		                            	</a>
+		                            	<span class="info-author-top">Tiên Tiên</span>
+		                            </h3>
+		                            <ul class="ul-tool">
+		                            	<li><a href="#" class="song-icon song-headphone pull-right"><span>22,339,547</span></a></li>
+		                            	<li><a href="#" class="song-icon song-download pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-gift pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-phone pull-right">&nbsp;</a></li>
+		                            </ul>
+		                        </li>
+		                        <!-- END SONG -->
+		                        <li class="fn-song" id="">
+		                            <h3 class="txt-primary">
+		                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink">Say You Do <span class="hidden-singer">- Tiên Tiên</span>
+		                            	</a>
+		                            	<span class="info-author-top">Tiên Tiên</span>
+		                            </h3>
+		                            <ul class="ul-tool">
+		                            	<li><a href="#" class="song-icon song-headphone pull-right"><span>22,339,547</span></a></li>
+		                            	<li><a href="#" class="song-icon song-download pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-gift pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-phone pull-right">&nbsp;</a></li>
+		                            </ul>
+		                        </li>
+		                        <!-- END SONG --> 
+		                        <li class="fn-song" id="">
+		                            <h3 class="txt-primary">
+		                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink">Say You Do <span class="hidden-singer">- Tiên Tiên</span>
+		                            	</a>
+		                            	<span class="info-author-top">Tiên Tiên</span>
+		                            </h3>
+		                            <ul class="ul-tool">
+		                            	<li><a href="#" class="song-icon song-headphone pull-right"><span>22,339,547</span></a></li>
+		                            	<li><a href="#" class="song-icon song-download pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-gift pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-phone pull-right">&nbsp;</a></li>
+		                            </ul>
+		                        </li>
+		                        <!-- END SONG -->
+		                        <li class="fn-song" id="">
+		                            <h3 class="txt-primary">
+		                            	<a title="Bài hát Say You Do - Tiên Tiên" href="#" class="ellipsis list-item-width _trackLink">Say You Do <span class="hidden-singer">- Tiên Tiên</span>
+		                            	</a>
+		                            	<span class="info-author-top">Tiên Tiên</span>
+		                            </h3>
+		                            <ul class="ul-tool">
+		                            	<li><a href="#" class="song-icon song-headphone pull-right"><span>22,547</span></a></li>
+		                            	<li><a href="#" class="song-icon song-download pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-like pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-gift pull-right">&nbsp;</a></li>
+		                            	<li><a href="#" class="song-icon song-phone pull-right">&nbsp;</a></li>
+		                            </ul>
+		                        </li>
+		                        <!-- END SONG -->
+		                    </ul>
+		                    <script type="text/javascript">
+			                    $(document).ready(function(){
+			                    	var max = 0;
+									$('.song-headphone').each(function(){
+										if( $(this).width() > max ) {
+											max = $(this).width();
+										}
+									});
+									$('.song-headphone').width(max);
+			                    })
+		                    </script>
+		                </div>
+		                <!-- END .list-item -->
+	            	</div>
+	            </div>
+	        </div>
+	        <!-- END .section -->
+	        <div class="section box-comment">
+			    <h3 class="title-section">Bình luận (<span id="commentCounter">4</span>)</h3>
+			    <form class="frm-comment fn-comment" method="POST" action="">
+			        <p class="avatar"><img width="80" src="images/singer/avatar.jpg" class="fn-useravatar" alt=""></p>
+			        <div class="wrap-comment">
+			            <textarea rows="10" cols="30" name="content"></textarea>
+			            <p class="frm-checkbox disabled">
+			                <input type="checkbox"><span>Đăng bình luận trên Facebook</span>
+			                <input type="hidden" value="ZW6FDBB6" name="id">
+			                <input type="hidden" value="song" name="type">
+			            </p>
+			            <button class="button btn-blue pull-right" type="submit" name="btnSubmit">Bình luận</button>
+			        </div>
+			    </form>
+			    <ul class="list-comment" id="commentList">
+			        <li class="item-comment fn-page fn-page1">
+			            <a class="thumb-user fn-link" href="#" title="Trang Mun">
+			            	<img width="50" alt="Trang Mun" src="images/singer/usr1.jpg" class="fn-thumb" />
+			            </a>
+			            <div class="post-comment">
+			            	<a class="fn-link fn-dname" rel="nofollow" target="_blank" href="#" title="Trang Mun">Trang Mun</a>
+			                <p class="fn-content">LOVE Heo Mập ^♥^ Chúc nàng thêm xinh thêm trẻ trong năm mới, thành công nheee. LOVE ALL MHF !?!</p>
+			                <span class="fn-time time-comment">16:16 01/03/2015</span>
+			            </div>			            
+			        </li>
+			        <li class="item-comment fn-page fn-page1">
+			            <a class="thumb-user fn-link" href="#" title="Trang Mun">
+			            	<img width="50" alt="Trang Mun" src="images/singer/usr1.jpg" class="fn-thumb" />
+			            </a>
+			            <div class="post-comment">
+			            	<a class="fn-link fn-dname" rel="nofollow" target="_blank" href="#" title="Trang Mun">Trang Mun</a>
+			                <p class="fn-content">LOVE Heo Mập ^♥^ Chúc nàng thêm xinh thêm trẻ trong năm mới, thành công nheee. LOVE ALL MHF !?!</p>
+			                <span class="fn-time time-comment">16:16 01/03/2015</span>
+			            </div>			            
+			        </li>
+			        <li class="item-comment fn-page fn-page1">
+			            <a class="thumb-user fn-link" href="#" title="Trang Mun">
+			            	<img width="50" alt="Trang Mun" src="images/singer/usr1.jpg" class="fn-thumb" />
+			            </a>
+			            <div class="post-comment">
+			            	<a class="fn-link fn-dname" rel="nofollow" target="_blank" href="#" title="Trang Mun">Trang Mun</a>
+			                <p class="fn-content">LOVE Heo Mập ^♥^ Chúc nàng thêm xinh thêm trẻ trong năm mới, thành công nheee. LOVE ALL MHF !?!</p>
+			                <span class="fn-time time-comment">16:16 01/03/2015</span>
+			            </div>			            
+			        </li>
+			        <li class="item-comment fn-page fn-page1">
+			            <a class="thumb-user fn-link" href="#" title="Trang Mun">
+			            	<img width="50" alt="Trang Mun" src="images/singer/usr1.jpg" class="fn-thumb" />
+			            </a>
+			            <div class="post-comment">
+			            	<a class="fn-link fn-dname" rel="nofollow" target="_blank" href="#" title="Trang Mun">Trang Mun</a>
+			                <p class="fn-content">LOVE Heo Mập ^♥^ Chúc nàng thêm xinh thêm trẻ trong năm mới, thành công nheee. LOVE ALL MHF !?!</p>
+			                <span class="fn-time time-comment">16:16 01/03/2015</span>
+			            </div>			            
+			        </li>
+			    </ul>
+			</div>
+	        <!-- END COMMENT -->
+	    </div>
+	    <!-- END .wrap-content -->
+	    <div class="wrap-sidebar">
+	        <!--Start .ads -->
+	        <div class="_bannerAds">
+	            <div class="ads">	                
+	                <div class="widget widget-banner _adsCol">
+	                    <a href="#"><img src="images/ads/qc300x250.jpg" /></a>
+	                </div>	                
+	                <div class="widget widget-banner _adsCol">
+	                    <a href="#"><img src="images/ads/qc300x250_2.jpg" /></a>
+	                </div>
+	            </div>
+	        </div>
+	        <!--End .ads -->
+
+	        <div class="widget widget-countdown">
+			    <h3 class="title-section sz-title-sm">Có Thể Bạn Muốn Nghe</h3>
+			    <div data-length="10" data-start="10" data-type="song" data-id="ZW6FDBB6" id="songRec" class="widget-content no-padding no-border">
+			        <ul class="fn-list">
+			            <li class="fn-item" id="songrecZW6DC6WC">
+			            	<a class="thumb fn-link" title="" href="#">
+			            		<img width="50" alt="" src="images/thumb/thumb1.jpg" class="fn-thumb">
+			            	</a>
+			                <h3 class="song-name ellipsis">
+			                	<a class="txt-primary fn-link fn-name" title="Bài hát Ngày Anh Đi - Minh Hằng" href="#">Ngày Anh Đi</a>
+			                </h3>
+			                <div class="inblock ellipsis fn-artist_list">
+			                    <h4 class="singer-name txt-info fn-artist">
+			                    	<a title="Nghệ sĩ Minh Hằng" href="#">Minh Hằng</a>
+			                    </h4>
+			                </div>
+			                <div class="tool-song">
+			                    <div class="i25 i-small download">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-dlsong" title="Download"></a>
+			                    </div>
+			                    <div class="i25 i-small addlist">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-addto" title="Thêm vào"></a>
+			                    </div>
+			                    <div class="i25 i-small heart">
+			                        <a href="http://mp3.zing.vn/bai-hat/Ngay-Anh-Di-Minh-Hang/ZW6DC6WC.html" data-item="#songrecZW6DC6WC" class="fn-share" title="Chia sẻ"></a>
+			                    </div>
+			                </div>
+			            </li>
+
+			            <li class="fn-item" id="songrecZW6DC6WC">
+			            	<a class="thumb fn-link" title="" href="#">
+			            		<img width="50" alt="" src="images/thumb/thumb1.jpg" class="fn-thumb">
+			            	</a>
+			                <h3 class="song-name ellipsis">
+			                	<a class="txt-primary fn-link fn-name" title="Bài hát Ngày Anh Đi - Minh Hằng" href="#">Ngày Anh Đi</a>
+			                </h3>
+			                <div class="inblock ellipsis fn-artist_list">
+			                    <h4 class="singer-name txt-info fn-artist">
+			                    	<a title="Nghệ sĩ Minh Hằng" href="#">Minh Hằng</a>
+			                    </h4>
+			                </div>
+			                <div class="tool-song">
+			                    <div class="i25 i-small download">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-dlsong" title="Download"></a>
+			                    </div>
+			                    <div class="i25 i-small addlist">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-addto" title="Thêm vào"></a>
+			                    </div>
+			                    <div class="i25 i-small heart">
+			                        <a href="http://mp3.zing.vn/bai-hat/Ngay-Anh-Di-Minh-Hang/ZW6DC6WC.html" data-item="#songrecZW6DC6WC" class="fn-share" title="Chia sẻ"></a>
+			                    </div>
+			                </div>
+			            </li>
+			            <li class="fn-item" id="songrecZW6DC6WC">
+			            	<a class="thumb fn-link" title="" href="#">
+			            		<img width="50" alt="" src="images/thumb/thumb1.jpg" class="fn-thumb">
+			            	</a>
+			                <h3 class="song-name ellipsis">
+			                	<a class="txt-primary fn-link fn-name" title="Bài hát Ngày Anh Đi - Minh Hằng" href="#">Ngày Anh Đi</a>
+			                </h3>
+			                <div class="inblock ellipsis fn-artist_list">
+			                    <h4 class="singer-name txt-info fn-artist">
+			                    	<a title="Nghệ sĩ Minh Hằng" href="#">Minh Hằng</a>
+			                    </h4>
+			                </div>
+			                <div class="tool-song">
+			                    <div class="i25 i-small download">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-dlsong" title="Download"></a>
+			                    </div>
+			                    <div class="i25 i-small addlist">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-addto" title="Thêm vào"></a>
+			                    </div>
+			                    <div class="i25 i-small heart">
+			                        <a href="http://mp3.zing.vn/bai-hat/Ngay-Anh-Di-Minh-Hang/ZW6DC6WC.html" data-item="#songrecZW6DC6WC" class="fn-share" title="Chia sẻ"></a>
+			                    </div>
+			                </div>
+			            </li>
+			            <li class="fn-item" id="songrecZW6DC6WC">
+			            	<a class="thumb fn-link" title="" href="#">
+			            		<img width="50" alt="" src="images/thumb/thumb1.jpg" class="fn-thumb">
+			            	</a>
+			                <h3 class="song-name ellipsis">
+			                	<a class="txt-primary fn-link fn-name" title="Bài hát Ngày Anh Đi - Minh Hằng" href="#">Ngày Anh Đi</a>
+			                </h3>
+			                <div class="inblock ellipsis fn-artist_list">
+			                    <h4 class="singer-name txt-info fn-artist">
+			                    	<a title="Nghệ sĩ Minh Hằng" href="#">Minh Hằng</a>
+			                    </h4>
+			                </div>
+			                <div class="tool-song">
+			                    <div class="i25 i-small download">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-dlsong" title="Download"></a>
+			                    </div>
+			                    <div class="i25 i-small addlist">
+			                        <a href="#" data-item="#songrecZW6DC6WC" class="fn-addto" title="Thêm vào"></a>
+			                    </div>
+			                    <div class="i25 i-small heart">
+			                        <a href="http://mp3.zing.vn/bai-hat/Ngay-Anh-Di-Minh-Hang/ZW6DC6WC.html" data-item="#songrecZW6DC6WC" class="fn-share" title="Chia sẻ"></a>
+			                    </div>
+			                </div>
+			            </li>
+			        </ul>
+			        <a data-item="#songRec" class="load-more fn-rec" href="#"><span>Xem thêm</span></a> </div>
+			</div>
+			<!-- END WIDGET -->
+	    </div>
+	    <!-- END .wrap-sidebar -->
+	</div>
+	<!-- End group -->
+	<div class="clearfix"></div>	
+
+	<footer>
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-3 line-ft">
+	            	<div class="box-ft-wrap">
+	            		<div class="box-heading">
+	            			<span>Funring</span>
+	            		</div>
+	            		<div class="box-content">
+	            			<ul class="ul-footer">
+	            				<li><a href="#">Giới thiệu</a></li>
+	            				<li><a href="#">Quy định</a></li>
+	            			</ul>
+	            		</div>
+	            	</div>
+	            </div>
+	            <!-- End .col-3 -->
+	            <div class="col-3 line-ft">
+	            	<div class="box-ft-wrap">
+	            		<div class="box-heading">
+	            			<span>Dịch vụ</span>
+	            		</div>
+	            		<div class="box-content">
+	            			<ul class="ul-footer">
+	            				<li><a href="#">Funring sáng tạo</a></li>
+	            				<li><a href="#">Funring cảm xúc</a></li>
+	            				<li><a href="#">Funring doanh nghiệp</a></li>
+	            				<li><a href="#">Music talk</a></li>
+	            			</ul>
+	            		</div>
+	            	</div>
+	            </div>
+	            <!-- End .col-3 -->
+	            <div class="col-3 line-ft">
+	            	<div class="box-ft-wrap">
+	            		<div class="box-heading">
+	            			<span>Mobifone</span>
+	            		</div>
+	            		<div class="box-content">
+	            			<ul class="ul-footer">
+	            				<li><a href="#">Sản phẩm</a></li>
+	            				<li><a href="#">Dịch vụ</a></li>
+	            				<li><a href="#">Khuyến mãi</a></li>
+	            				<li><a href="#">Nạp tiền trực tuyến</a></li>
+	            			</ul>
+	            		</div>
+	            	</div>
+	            </div>
+	            <!-- End .col-3 -->
+	            <div class="col-3">
+	            	<div class="box-ft-wrap">
+	            		<div class="box-heading">
+	            			<span>Trợ giúp</span>
+	            		</div>
+	            		<div class="box-content">
+	            			<ul class="ul-footer">
+	            				<li><a href="#">FAQs</a></li>
+	            				<li>Kết nối<br>
+	            					<a href="#">Facebook</a><br>
+	            					<a href="#">G-plus</a>
+	            				</li>
+	            			</ul>
+	            		</div>
+	            	</div>
+	            </div>
+	            <!-- End .col-3 -->
+	        </div>
+	        <!-- END .row -->
+	    </div>
+	    <!-- END .container -->
+	    <div class="copyright-wrap">
+	    	<div class="container">
+	    		<p>Copyright © FUNRING. Đơn vị chủ quản: Tổng công ty Viễn Thông Mobifone</p>
+	    	</div>	    	
+	    </div>
+	</footer>
+
+	<div id="toolbar" class="quick-nav">
+	    <div class="quick-nav-bar">
+	        <ul class="quick-nav-above">
+	            <li>
+	            	<a title="am nhac" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-music"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="tai lieu" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-document"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-gift"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-sound"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-like"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-setting"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-book"></span>
+	            	</a>	                
+	            </li>	            
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-user"></span>
+	            	</a>	                
+	            </li>
+	            <li style="border-top:1px solid #e3e1e1">
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-yahoo"></span>
+	            	</a>	                
+	            </li>
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar">
+	            		<span class="icon-tb ic-skype"></span>
+	            	</a>	                
+	            </li>
+
+	            <li>
+	            	<a title="" href="#" class="fn-toolbar" onclick="window.scrollTo(0, 0); return false;">
+	            		<span class="icon-tb ic-top"></span>
+	            	</a>	                
+	            </li>
+	        </ul>	        
+	    </div>	    
+	</div>
+	<!-- End #toolbar -->
+	<div id="song-gift" class="popupContainerGroup1" style="display:none">
+		<div class="col-12 ribbon"></div>
+		<section class="popupBody">
+			<div class="songgift">
+				<div class="title-section">
+	            	<a rel="nofollow" target="_blank" href="#" title="">Tặng Nhạc Chờ</a>
+	            	<span class="modal_close"><i class="fa fa-times"></i></span>	            	
+	            </div>
+	            <p>bạn có chắc chắn tặng <span>"khuôn mặt đáng thương 1"</span> cho số:</p>
+	            <div class="row" style="margin-bottom:0px">
+		            <p><input type="text" name="q" placeholder="Nhập SĐT" class="input-txt pull-left" style="width:60%; padding:4px 15px; margin-left:15px"><button style="margin-left:10px; margin-right:10px;  padding:5px 10px;" class="button btn-blue pull-left" type="submit" name="btnSubmit">Đồng Ý</button><button style="padding:5px 10px;" class="button btn-blue pull-left" type="submit" name="btnSubmit">Huỷ</button></p>
+		        </div>
+			</div>
+		</section>
+	</div>
+	
+	<div id="song-download" class="popupContainerGroup1" style="display:none;">
+		<div class="col-12 ribbon"></div>
+		<section class="popupBody">
+	<!-- Register Form -->
+			<div class="songdownload">
+				<div class="title-section">
+	            	<a rel="nofollow" target="_blank" href="#" title="">Đăng Nhập</a>
+	            	<span class="modal_close"><i class="fa fa-times"></i></span>
+	            </div>
+	            <p>bạn có chắc chắn tải <span>"khuôn mặt đáng thương 1"</span> để làm nhạc chờ:</p>
+				<div class="row" style="margin-bottom:0px">
+					<div class="col-12 btn-submit">
+						<div class="divContainer">
+							<form name="copy_nhacfr" action="" method="POST">
+								<div>
+									<span class="span-radio"><input class="funirng_option" type="radio" name="group1" value="Funring so"> Cài làm nhạc chờ mặc định</span>
+									<span class="span-radio"><input class="funirng_option" type="radio" name="group1" value="Funring nhom" checked> Tự động gia hạn</span>
+								</div>
+							</form>
+						</div>
+		            </div>
+		            <div class="col-12">
+						<div class="col-6">
+	            			<button class="button btn-blue pull-right luu_thong_tin" type="submit" name="btnSubmit">Lưu</button>
+	            		</div>
+						<div class="col-6">
+							<button class="button btn-blue pull-left sua_thong_tin" type="submit" name="btnSubmit">Huỷ</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- End Popup -->
+	</div>
+</body>
+</html>

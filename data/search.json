@@ -1,0 +1,32 @@
+{
+	"result":true,
+	"data":[
+			{"artist":[
+					{"id":"IWZ9A76I","name":"Phạm Hồng Phước","thumb":""},
+					{"id":"IWZAOEI6","name":"Phạm Hồng Biển","thumb":""},
+					{"id":"IWZ9FDIW","name":"Hương Giang Idol Feat. Phạm Hồng Phước","thumb":""}
+					]
+			},
+			{"album":[
+					{"id":"ZWZBW8BC","name":"Xuân Swing","artist":"Phạm Hồng Phước","thumb":""},
+					{"id":"ZWZBUFBF","name":"Sau Chia Tay","artist":"Phạm Hồng Phước","thumb":""},
+					{"id":"ZWZBBFW9","name":"Xuân Swing (Remix)","artist":"Phạm Hồng Phước,Kimmese","thumb":""},
+					{"id":"ZWZB6WBZ","name":"Phía Nhà Có Mưa","artist":"Phạm Hồng Phước","thumb":""}
+					]
+			},
+			{"video":[
+					{"id":"ZW6A77IB","name":"Xuân Swing","artist":"Phạm Hồng Phước","thumb":""},
+					{"id":"ZW6BD6OB","name":"Sau Chia Tay","artist":"Phạm Hồng Phước","thumb":""},
+					{"id":"ZW6UEABO","name":"Mùa Ta Đã Yêu","artist":"Hương Giang Idol , Phạm Hồng Phước","thumb":""},
+					{"id":"ZW677U88","name":"Khi Người Lớn Cô Đơn","artist":"Phạm Hồng Phước","thumb":""}
+			]
+			},
+			{"song":[
+					{"id":"ZW6AD7BZ","name":"12/02","artist":"Phạm Hồng Phước"},
+					{"id":"ZW6A77IB","name":"Xuân Swing","artist":"Phạm Hồng Phước"},
+					{"id":"ZW7I0OD0","name":"Phật Tâm","artist":"Phạm Hồng Biển"},
+					{"id":"ZW7I0ODW","name":"Quán Trọ","artist":"Phạm Hồng Biển"}
+					]
+			}
+	]
+}
